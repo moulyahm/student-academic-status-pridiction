@@ -8,8 +8,8 @@ model = joblib.load("student_model.pkl")
 # Set the title of the app
 st.title("🎓 Student Academic Performance Predictor")
 
-# Display the model's accuracy (for example, you can hardcode it for now)
-accuracy = 0.8607594936708861  # You can also calculate this dynamically if needed
+# Display the model's accuracy
+accuracy = 0.8607594936708861 
 st.write(f"Model Accuracy: {accuracy * 100:.2f}%")
 
 # Input fields for student data (Grades, Study time, Failures, Absences)
